@@ -1,0 +1,25 @@
+/*Estilo de la página menú*/
+body.menu {
+    background: rgb(234, 190, 63) url("./images/casino.png");
+    color: rgb(255, 255, 255);
+}
+/* Estilo de la pagina registro */
+body.registro {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+/*Estilo de la página casino*/
+body.casino {
+    background: rgba(5, 63, 5, 0.979) url("./images/casino2.png");
+    color:rgb(255, 255, 255)
+}
+/*Estilo de la página poker*/
+body.poker {
+    background:rgb(0, 204, 255) url("./images/poker.png");
+    color:rgb(255, 255, 255)
+}
+/*Estilo de la página deportes*/
+body.deportes {
+    background: rgba(255, 153, 0, 0.979) url("./images/deportes.png");
+    color:rgb(255, 255, 255)
+}

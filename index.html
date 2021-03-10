@@ -2,34 +2,79 @@
 <html lang="es-ES">
     <head>
         <meta charset="UTF-8">
+        <title>
+            Registrarse
+        </title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <h1>Apuestas</h1>
+    <body class="registro">
+        <h1>Registrarse</h1>
         <div>
-            <form action="/registro-casino-online" method="POST">
+        <fieldset><legend>Registro</legend>
+            <form>
                 <table>
                 <tr>
                     <td>
                 <label for="Name">
-                    Nombre de usuario:
+                    Nombre:
                     </td>
                     <td>
-                    <input type="text" id="name" name="user_name">
+                    <input type="text" id="name" name="name">
+                </label>
+                    </td>   
+                 </tr>
+                <tr>
+                <tr>
+                    <td>
+                <label for="Lastname">
+                    Apellidos:
+                    </td>
+                    <td>
+                    <input type="text" id="Lastname" name="Lastname">
                 </label>
                     </td>   
                  </tr>
                 <tr>
                     <td>
                 <label for="mail">
-                    Correo electronio:
+                    Correo electrónico:
                     </td>
                     <td>
                     <input input type="email" id="mail" name="user_mail">
                 </label>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                <label for="user_name">
+                    Usuario:
+                    </td>
+                    <td>
+                    <input input type="email" id="mail" name="user_name">
+                </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                <label for="password">
+                    Contraseña:
+                    </td>
+                    <td>
+                    <input type="password" id="password" name="user_passwd">
+                </label>
+                    </td>   
+                 </tr>
+                <tr>
+                    <td>
+                <button type="button">
+                    <a href="./menu.html"> Registrarse
+                    </a> 
+                </button>
+                    </td>
+                </tr>
                 </table>
             </form>
+        </fieldset>
         </div>
     </body>
 </html>
